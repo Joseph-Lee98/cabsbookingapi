@@ -1,0 +1,72 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### Maven ###
+# Ignore target directory
+target/
+# Ignore build artifacts from subdirectories
+!**/src/main/**/target/
+!**/src/test/**/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+
+### Logs ###
+*.log
+logs/
+*.tmp
+
+### Spring Boot ###
+spring.log
+
+### IDE-Specific Exclusions ###
+# STS (Spring Tool Suite)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+### OS-Specific Files ###
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+
+### Environment Files ###
+.env
+*.env
+
+### Temporary/Backup Files ###
+*.bak
+*.tmp
+*.swp
+*.seed
+*.pid
